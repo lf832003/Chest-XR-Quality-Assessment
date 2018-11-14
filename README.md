@@ -1,1 +1,0 @@
-# Chest-XR-Quality-Assessment
