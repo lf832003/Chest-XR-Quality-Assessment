@@ -1,0 +1,10 @@
+xlswriter
+pydicom
+natsort
+numpy
+keras
+tensorflow
+pandas
+skimage
+matplotlib
+jupyterlab
