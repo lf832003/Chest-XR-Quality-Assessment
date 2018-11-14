@@ -9,7 +9,7 @@ def readfileslist(pathtofiles, fileext):
     if not os.path.exists(pathtofiles):
         raise IOError('Path does not exist!')
         
-    if os.path.isabs(pathtofiles):
+    if not os.path.isabs(pathtofiles):
         pathtofiles = os.path.join(os.getcwd(), pathtofiles)
 
     lstFiles = []
